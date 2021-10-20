@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\LawyerController;
 
 
 
@@ -32,6 +33,7 @@ Route::get('user-logout', [LoginController::class, 'userLogout']);
 
 //Admin
 Route::resource('/admin-clients', ClientController::class);
+Route::resource('/admin-lawyers', LawyerController::class);
 
 
 
