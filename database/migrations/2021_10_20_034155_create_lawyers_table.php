@@ -20,9 +20,9 @@ class CreateLawyersTable extends Migration
             $table->string('gender');
             $table->string('nic');
             $table->string('scenrolment_no');
-            $table->string('lawyers_type_id');
+           
             $table->string('qualified_area');
-            $table->string('academic_qualifications');
+            $table->string('nic');
             $table->string('years_of_experience');
             $table->string('address');
             $table->string('contact');

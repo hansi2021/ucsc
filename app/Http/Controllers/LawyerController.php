@@ -37,7 +37,7 @@ class LawyerController extends Controller
     public function store(Request $request)
     {
         Lawyer::create($request->all());
-        return redirect()->route('admin-lawyer.index')->with('success', 'Lawyer created Successfully');
+        return redirect()->route('admin-lawyers.index')->with('success', 'Lawyer created Successfully');
     }
 
     /**

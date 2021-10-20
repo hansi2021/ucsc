@@ -29,8 +29,8 @@
           <th>Last Name</th>
           <th>Gender</th>
           <th>NIC</th>
-          <th>SC Enrolment No</th>
-          <th>Lawyers Type</th>
+          <th>SCEnrolment No</th>
+          
           <th>Qualified Area</th>
           <th>Academic Qualifications</th>
           <th>Years of Experience</th>
@@ -49,7 +49,7 @@
           <td>{{$lawyer->gender}}</td>
           <td>{{$lawyer->nic}}</td>
           <td>{{$lawyer->scenrolment_no}}</td>
-          <td>{{$lawyer->lawyers_type_id}}</td>
+          
           <td>{{$lawyer->qualified_area}}</td>
           <td>{{$lawyer->academic_qualifications}}</td>
           <td>{{$lawyer->years_of_experience}}</td>

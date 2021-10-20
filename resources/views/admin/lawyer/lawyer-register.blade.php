@@ -60,22 +60,14 @@
           <input type="text" class="form-control" id="nic" name="nic" placeholder="NIC" required>
         </div>
         <div class="form-group">
-          <label for="nic">SC enrolment No</label>
-          <input type="text" class="form-control" id="scenrolment" name="scenrolment" placeholder="SC enrolment No" required>
+          <label for="scenrolment_no">SC enrolment No</label>
+          <input type="text" class="form-control" id="scenrolment_no" name="scenrolment_no" placeholder="SC enrolment No" required>
         </div>
-        <div class="form-group">
-          <label for="type">Lawyers type</label>
-          <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Male</label> -->
-          <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Female</label> -->
-          <select name="type" id="type" class="form-control">
-            <option value="President's Counsel">President's Counsel</option>
-            <option value="Attorney-at-Law">Attorney-at-Law</option>
-          </select>
           <div class="form-group">
-          <label for="qualified area">Qualified area</label>
+          <label for="qualified_area">Qualified area</label>
           <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Male</label> -->
           <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Female</label> -->
-          <select name="qualified area" id="qualified area" class="form-control">
+          <select name="qualified_area" id="qualified_area" class="form-control">
             <option value="Civil Law">Civil Law</option>
             <option value="Criminal Law">Criminal Law</option>
             <option value="Commercial Law">Commercial Law</option>
@@ -85,17 +77,17 @@
             <option value="Arbitration Law">Arbitration Law</option>
           </select>
           <div class="form-group">
-          <label for="academic">Academic Qualifications</label>
+          <label for="academic_qualifications">Academic Qualifications</label>
           <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Male</label> -->
           <!-- <label class="radio-inline form-control"></label><input type="radio" name="gender">Female</label> -->
-          <select name="qualifications" id="qualifications" class="form-control">
+          <select name="academic_qualifications" id="academic_qualifications" class="form-control">
             <option value="PhD">PhD</option>
             <option value="LLM">LLM</option>
             <option value="LLB">LLB</option>
           </select>
           <div class="form-group">
-          <label for="years">Years of Experience</label>
-          <input type="text" class="form-control" id="years" name="years" placeholder="Years of Experience" required>
+          <label for="years_of_experience">Years of Experience</label>
+          <input type="text" class="form-control" id="years_of_experience" name="years_of_experience" placeholder="Years of Experience" required>
         </div>
         <div class="form-group">
           <label for="address">Address</label>
